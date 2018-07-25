@@ -1,4 +1,4 @@
-package co.thebeat.booklibrary.bblibrary;
+package co.thebeat.booklibrary;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

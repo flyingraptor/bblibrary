@@ -1,4 +1,4 @@
-package co.thebeat.booklibrary.bblibrary;
+package co.thebeat.booklibrary;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
