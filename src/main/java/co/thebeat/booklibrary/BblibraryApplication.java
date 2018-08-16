@@ -11,16 +11,16 @@ public class BblibraryApplication {
 	public static void main(String[] args) {
 		
 		Book book1 = new Book();
-		book1.id = "HJHYW343JJ";
-		book1.ISBN = "JFJDF_DFDFDF";
+		book1.setId("HJHYW343JJ");
+		book1.setISBN("JFJDF_DFDFDF");
 		
 		Book book2 = new Book();
-		book2.id = "JDJDJJDJD";
-		book2.ISBN = "FSFDF-FDFDFD-FDFDF";
+		book2.setId("JDJDJJDJD");
+		book2.setISBN("FSFDF-FDFDFD-FDFDF");
 		
-		System.out.println(book1.id);
-		System.out.println(book1.ISBN);
-		System.out.println(book2.id);
-		System.out.println(book2.ISBN);
+		System.out.println(book1.getId());
+		System.out.println(book1.getISBN());
+		System.out.println(book2.getId());
+		System.out.println(book2.getISBN());
 	}
 }
