@@ -2,9 +2,9 @@ package co.thebeat.booklibrary.frontdesk.web.entities;
 
 public class Book {
 	
-	private String id;
+	public String id;
 	
-	private String ISBN;
+	public String ISBN;
 	
 	private String title;
 	
